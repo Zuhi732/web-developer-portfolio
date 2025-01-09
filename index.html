@@ -4,16 +4,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body>
-   <header>
-
+<body class="open-sans-normal">
+   <header class="header secondary-bg">
+     <nav>
+        <h3 
+        class="nav-title">D<span class="text-primery">i</span>han</h3>
+        <ul>
+            <li><a class="dark-2" href="">Portfolio</a></li>
+            <li><a class="dark-2" href="">Blog</a></li>
+            <li><a href=""><button class="btn-primery">Hire me</button></a></li>
+        </ul>
+     </nav>
+     <div class="banner">
+        <div class="banner-content">
+           <h4 class="banner-greetings dark-2">Hi, I am </h4>
+           <h1 class="banner-title">Dihan Shahriar</h1>
+           <p class="banner-description">
+            Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.
+            </p>
+            <button class="btn-primery">Download CV</button>
+            <button class="btn-primery">Contact</button>
+        </div>
+        <img class="banner-profile-pic" src="images/hardy.png" alt="">
+     </div>  
    </header> 
    <main>
+      <section class="about secondary-bg">
+        <h3 class="section-title">About me</h3>
+        <p class="section-description">
+I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.
+
+        </p>
+        <div class="about-items">
+            <!-- .about-item*4>p.item-title+p.item-description -->
+            <div class="about-item">
+                <p class="item-title">Name</p>
+                <p class="item-description">Dihan Shahriar</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Email</p>
+                <p class="item-description">abc@def.com</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Date of Birth</p>
+                <p class="item-description">March 30,1999</p>
+            </div>                          
+            <div class="about-item">
+                <p class="item-title">From</p>
+                <p class="item-description">Michigan,USA</p>
+            </div>
+        </div>
+      </section>
+      <!-- what i do section start -->
+       
+      <!-- section.skill -->
+      <section class="skills">
+
+        <h3 class="section-title  text-center">What I Do</h3>
+        <p class="section-description text-center">
+            I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.
+        </p>
+        <div class="skills-container">
+        <!-- .skill*4>img+h4.skill-title+p.skill-description -->
+        <div class="skill">
+            <img src="images/icons/mongo.png" alt="MongoDB">
+            <h4 class="skill-title">MongoDB</h4>
+            <p class="skill-description">
+                List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+        </div>
+        <div class="skill">
+            <img src="images/icons/js.png" alt="vanilla javascript">
+            <h4 class="skill-title">javascript</h4>
+            <p class="skill-description">
+                List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+        </div>
+        <div class="skill">
+            <img src="images/icons/react.png" alt="React">
+            <h4 class="skill-title">React</h4>
+            <p class="skill-description">
+                List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+        </div>
+        <div class="skill">
+            <img src="images/icons/nodejs.png" alt="Node.js">
+            <h4 class="skill-title">nodejs</h4>
+            <p class="skill-description">
+                List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+        </div>
+    </div>
+      </section>
+      <section class="resume">
+        <h3 class="section-title">A Summary of My Resume</h3>
+        <div class="resume-container">
+            
+            <!-- .resume-column*2>h3.resume-column-title+.experience*3>h4.experience-title+h5.experience-sub-title+.experience-description -->
+            <div class="resume-column">
+                <h3 class="resume-column-title">My Education</h3>
+                <div class="experience">
+                    <h4 class="experience-title">School Secondary Certificate</h4>
+                    <h5 class="experience-sub-title">Cumilla Govt. zilla School</h5>
+                    <div class="experience-description">GPA-5.00</div>
+                </div>
+                <hr>
+                <div class="experience">
+                    <h4 class="experience-title">Higher Secondary Certificate</h4>
+                    <h5 class="experience-sub-title">Cumilla Govt. Victoria Collage</h5>
+                    <div class="experience-description">GPA-5.00</div>
+                </div>
+                <hr>
+                <div class="experience">
+                    <h4 class="experience-title">BSC in Computer Science</h4>
+                    <h5 class="experience-sub-title">Bangladesh Army International University Of Science & Technology</h5>
+                    <div class="experience-description">Pursuing a BSc in Computer Science and Engineering at Bangladesh Army International University of Science and Technology, I have developed a strong foundation in programming, data structures, algorithms, and object-oriented design. My academic journey has equipped me with skills in software development, web technologies, and AI, along with a solid understanding of operating systems, computer networks, and cybersecurity principles. Through hands-on projects, I have honed my problem-solving abilities, teamwork, and project management skills, applying theoretical knowledge to practical scenarios effectively.</div>
+                </div>
+                <hr>
+            </div>
+            <div class="resume-column">
+                <h3 class="resume-column-title">My Experience</h3>
+                <div class="experience">
+                    <h4 class="experience-title">Research</h4>
+                    <h5 class="experience-sub-title">Thesis</h5>
+                    <div class="experience-description">Enhance Detection of Colorectal Carcinoma through Convolutional Neural Network</div>
+                </div>
+                <hr>
+                <div class="experience">
+                    <h4 class="experience-title">Front-End-Developer</h4>
+                    <h5 class="experience-sub-title">Software Engineer</h5>
+                    <div class="experience-description">As a front-end developer, I specialize in creating responsive and user-friendly web interfaces using modern technologies like HTML, CSS, JavaScript, and frameworks such as React or Angular. I have experience designing and implementing visually appealing layouts, ensuring cross-browser compatibility, and optimizing performance for seamless user experiences. My skill set includes translating design mockups into interactive features, collaborating with teams to deliver projects on time, and staying updated with the latest trends in front-end development to build dynamic, engaging, and accessible web applications.</div>
+                </div>
+                <hr>
+                <div class="experience">
+                    <h4 class="experience-title">Web-Developer</h4>
+                    <h5 class="experience-sub-title">Software Engineer</h5>
+                    <div class="experience-description">I have hands-on experience in web development, focusing on designing and building responsive, user-centric websites and applications. My expertise includes working with HTML, CSS, JavaScript, and frameworks like React and Bootstrap to create intuitive interfaces and seamless navigation. I have developed projects that emphasize performance optimization, cross-browser compatibility, and accessibility. Additionally, I am skilled in collaborating with teams to translate client requirements into functional designs, ensuring timely delivery of high-quality web solutions while staying updated on the latest web development trends and technologies.</div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center resume-download-CV">
+        <button class="btn-primery">Download CV</button></div>
+      </section>
 
    </main>
-   <footer>
-    
-   </footer>
+   <footer class="secondary-bg footer">
+    <div class="footer-column">
+      <h3 class="section-title">Lets Connect</h3>
+      <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8:00 P.M ET, Monday through Friday.</p>
+      <div class="social-icons">
+        <a href=""><img src="images/icons/facebook.png" alt=""></a>
+        <a href=""><img src="images/icons/insta.png" alt=""></a>
+        <a href=""><img src="images/icons/twitter.png" alt=""></a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h3 class="section-title">Lets Inbox me</h3>
+      <form action="">
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Your Email">
+        <textarea cols="30" rows="10" placeholder="Message"></textarea>
+        <input class="btn-primary" type="submit" value="Submit">
+      </form>
+    </div>
+  </footer>
+  
 </body>
 </html>
